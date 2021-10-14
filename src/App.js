@@ -1,9 +1,13 @@
 import React from 'react'
 
+import {Products, Navbar } from './components';
+
+
 const App = () => {
     return (
         <div>
-            Super-Store
+            <Navbar />
+            <Products />
         </div>
     )
 }
